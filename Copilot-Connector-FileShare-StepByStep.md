@@ -482,6 +482,18 @@ File not appearing for a user in Copilot?
 - [ ] Connection published, initial crawl completes
 - [ ] Validated via Index browser, Microsoft Search, and Copilot
 
+
+
+## IP Firewall Rules
+
+If your data source uses IP firewall rules, allow access to the Copilot connectors service by permitting the following IP ranges.
+
+| Region | Microsoft 365 Enterprise | Microsoft 365 Government |
+|--------|--------------------------|--------------------------|
+| NAM    | 52.250.92.252/30, 52.224.250.216/30 | 52.245.230.216/30, 20.141.117.64/30 |
+| EUR    | 20.54.41.208/30, 51.105.159.88/30   | N/A |
+| APC    | 52.139.188.212/30, 20.43.146.44/30  | N/A |
+
 ---
 
 ## Appendix A — Consolidated reference list
@@ -573,14 +585,7 @@ File not appearing for a user in Copilot?
 > Functional acronyms used in this guide. File-format extensions (DOC, DOCX, PDF, PPT, XLS, ZIP, etc.) are omitted because they are standard document/archive formats supported by the connector for content indexing.
 
 | Access Control Lists (ACLs) | <https://learn.microsoft.com/en-us/windows/win32/secauthz/access-control-lists> 
-| Order of ACEs in a DACL (Allow vs Deny) | <https://learn.microsoft.com/en-us/windows/win32/secauthz/order-of-aces-in-a-dacl> |
-| Active Directory security groups | <https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups> |
 | SMB share overview | <https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview> |
-| Get-Acl | <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-acl> |
-| Set-Acl | <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-acl> |
-| Get-SmbShareAccess | <https://learn.microsoft.com/en-us/powershell/module/smbshare/get-smbshareaccess> |
-| Grant-SmbShareAccess | <https://learn.microsoft.com/en-us/powershell/module/smbshare/grant-smbshareaccess> |
-| Revoke-SmbShareAccess | <https://learn.microsoft.com/en-us/powershell/module/smbshare/revoke-smbshareaccess> |
-| NTFSSecurity PS module | <https://www.powershellgallery.com/packages/NTFSSecurity> |
+| NTFS Overview | <https://learn.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview> |
 | UNC path format | <https://learn.microsoft.com/en-us/dotnet/standard/io/file-path-formats#unc-paths> |
-| fsutil behavior (last access time) | <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/fsutil-behavior> |
+
