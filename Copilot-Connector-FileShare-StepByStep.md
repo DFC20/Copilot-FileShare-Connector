@@ -391,7 +391,7 @@ Adjust defaults to balance freshness vs. load.
 
 ## 12. Operate & troubleshoot
 
-- Monitor the connection state in the **Connectors** section of the [admin center](https://admin.microsoft.com).
+- Monitor the connection state in the **Connectors** section of the [admin center](https://admin.microsoft.com). Comming soon [Roadmap 519571](https://www.microsoft.com/en-us/microsoft-365/roadmapmsockid=0c681002c43a65b93b7e048cc5206414&searchterms=519571)
 - Manage updates/deletions: [Manage your connector](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/manage-connector).
 - Common issues: [Troubleshoot the File Share connector](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/troubleshoot-file-share-connector).
 - FAQ: [Copilot connectors – Frequently Asked Questions](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/frequently-asked-questions).
@@ -449,7 +449,7 @@ File not appearing for a user in Copilot?
 └── Big bulk import? → Indexing can take hours; let it complete before troubleshooting
 ```
 
-### 13.4 Sources (public Microsoft Learn articles confirming the above)
+### 13.4 Sources
 
 - **File Share connector – Synchronization** (full vs incremental, refresh interval is configurable):
   <https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/fileshare-connector#synchronization>
@@ -581,11 +581,13 @@ If your data source uses IP firewall rules, allow access to the Copilot connecto
 ---
 
 ## Appendix B — Acronyms
+Functional acronyms used in this guide. File-format extensions (DOC, DOCX, PDF, PPT, XLS, ZIP, etc.) are omitted because they are standard document/archive formats supported by the connector for content indexing.
 
-> Functional acronyms used in this guide. File-format extensions (DOC, DOCX, PDF, PPT, XLS, ZIP, etc.) are omitted because they are standard document/archive formats supported by the connector for content indexing.
+| Topic                      | Link |
+|----------------------------|------|
+| Access Control Lists (ACLs) | [https://learn.microsoft.com/en-us/windows/win32/secauthz/access-control-lists](https://learn.microsoft.com/en-us/windows/win32/secauthz/access-control-lists) |
+| SMB share overview          | [https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview](https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview) |
+| NTFS Overview               | [https://learn.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview](https://learn.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview) |
+| UNC path format             | [https://learn.microsoft.com/en-us/dotnet/standard/io/file-path-formats#unc-paths](https://learn.microsoft.com/en-us/dotnet/standard/io/file-path-formats#unc-paths) |
 
-| Access Control Lists (ACLs) | <https://learn.microsoft.com/en-us/windows/win32/secauthz/access-control-lists> 
-| SMB share overview | <https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview> |
-| NTFS Overview | <https://learn.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview> |
-| UNC path format | <https://learn.microsoft.com/en-us/dotnet/standard/io/file-path-formats#unc-paths> |
 
