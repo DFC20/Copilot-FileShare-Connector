@@ -572,7 +572,7 @@ File not appearing for a user in Copilot?
 
 > Functional acronyms used in this guide. File-format extensions (DOC, DOCX, PDF, PPT, XLS, ZIP, etc.) are omitted because they are standard document/archive formats supported by the connector for content indexing.
 
-| Access Control Lists (ACLs) | <https://learn.microsoft.com/en-us/windows/win32/secauthz/access-control-lists> |
+| Access Control Lists (ACLs) | <https://learn.microsoft.com/en-us/windows/win32/secauthz/access-control-lists> 
 | Order of ACEs in a DACL (Allow vs Deny) | <https://learn.microsoft.com/en-us/windows/win32/secauthz/order-of-aces-in-a-dacl> |
 | Active Directory security groups | <https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups> |
 | SMB share overview | <https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview> |
